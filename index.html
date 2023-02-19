@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav>
+        <h2>Calculadora</h2>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="https://github.com/hubner0">GitHub</a></li>
+          <li><a href="lorenzohubner123@gmail.com">Gmail</a></li>
+        </ul>
+      </nav>
+    <div class="calculator">
+      <div class="display">
+        <input type="text" id="input">
+      </div>
+      <div class="buttons">
+        <button onclick="clearInput()">C</button>
+        <button onclick="deleteLast()">←</button>
+        <button onclick="appendInput('/')">÷</button>
+        <button onclick="appendInput('*')">x</button>
+        <button onclick="appendInput('7')">7</button>
+        <button onclick="appendInput('8')">8</button>
+        <button onclick="appendInput('9')">9</button>
+        <button onclick="appendInput('-')">-</button>
+        <button onclick="appendInput('4')">4</button>
+        <button onclick="appendInput('5')">5</button>
+        <button onclick="appendInput('6')">6</button>
+        <button onclick="appendInput('+')">+</button>
+        <button onclick="appendInput('1')">1</button>
+        <button onclick="appendInput('2')">2</button>
+        <button onclick="appendInput('3')">3</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="appendInput('0')">0</button>
+        <button onclick="appendInput('.')">.</button>
+      </div>
+    </div>
+    <div class="footer"><footer>
+        <a>Criado Por Hubner ® 2023</a>
+    </footer></div>
+    <script src="script.js"></script>
+  </body>
+</html>
